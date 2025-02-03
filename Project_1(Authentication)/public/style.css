@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Auth {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.Auth h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    background: #5cb85c;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #4cae4c;
+}
+
+.error-messages {
+    color: red;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.home {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.home h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.home p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.home a {
+    color: #5cb85c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home a:hover {
+    text-decoration: underline;
+}
+
+.alert {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    display: none;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+    display: none;
+}
+
+.display {
+    display: block;
+}
+
+.dashboard{
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}

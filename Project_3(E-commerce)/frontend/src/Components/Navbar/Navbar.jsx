@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className={Classes.navbar}>
       <div className={Classes.nav_logo} >
-        <img src={logo} alt="logo" style={{width: '8rem', height : '5rem'}}/>
+        <img src={logo} alt="logo" style={{width: '6rem', height : '5rem'}}/>
       </div>
       <ul className={Classes.nav_menu}>
         <li

@@ -8,8 +8,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-logo">
-        <img src={footer_logo} alt="" />
+        <img src={footer_logo} alt="" style={{width: '8rem'}} />
       </div>
+      <div className="footer-social-icon">
       <ul className="footer-links">
         <li>Company</li>
         <li>Products</li>
@@ -17,7 +18,7 @@ const Footer = () => {
         <li>About</li>
         <li>Contact</li>
       </ul>
-      <div className="footer-social-icon">
+      <div className="footer-icon">
         <div className="footer-icon-container">
           <img src={instagram_icon} alt="" />
         </div>
@@ -27,6 +28,7 @@ const Footer = () => {
         <div className="footer-icon-container">
           <img src={whatsapp_icon} alt="" />
         </div>
+      </div>
       </div>
       <div className="footer-copyright">
         <hr />
